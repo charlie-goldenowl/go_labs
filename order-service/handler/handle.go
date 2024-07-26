@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	// "github.com/charlie-goldenowl/go_labs/service"
+
+	"github.com/charlie-goldenowl/go_labs/order-service/service"
 )
 
 func PlaceOrder(w http.ResponseWriter, r *http.Request) {

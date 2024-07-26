@@ -1,9 +1,10 @@
 package main
 
 import (
-	"handler"
 	"log"
 	"net/http"
+
+	"github.com/charlie-goldenowl/go_labs/order-service/handler"
 )
 
 func main() {
